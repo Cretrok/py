@@ -4,9 +4,9 @@ resName = False
 resPass = False
 
 while resName == False:
-    name = raw_input("Escriba un nombre de usuario: ")
-    resName = validaciones.validarUser(name)
+    name = str(input("Escriba un nombre de usuario: "))
+    resName = validar.validarUser(name)
 
 while resPass == False:
-    passUsr = raw_input("Escriba una contraseña: ")
-    resPass = validaciones.validarPass(passUsr)
+    passUsr = str(input("Escriba una contraseña: "))
+    resPass = validar.validarPass(passUsr)
